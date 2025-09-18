@@ -13,10 +13,10 @@ Prepare the lists from each linear equations and assign in np.array()
 Using the np.linalg.eig(),  we get two results (first is eigenvalue and second is eigenvector) of the given matrix.
 ### Step 4: 
 End the program
+### Developed by: Rohith s
+### RegisterNumber: 25008317
 ## Program:
 ```
-#Developed by: Rohith s
-#RegisterNumber: 25008317
 import numpy as np
 a= np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
 b,c = np.linalg.eig(a)
